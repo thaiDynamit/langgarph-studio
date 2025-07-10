@@ -20,7 +20,7 @@ class Configuration(BaseModel):
         description="Number of research iterations to perform"
     )
     local_llm: str = Field(
-        default="llama3.2",
+        default="deepseek-r1:7b",
         title="LLM Model Name",
         description="Name of the LLM model to use"
     )
